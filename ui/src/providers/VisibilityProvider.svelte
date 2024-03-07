@@ -4,7 +4,6 @@
 	import { onMount } from 'svelte'
 	import { BROWSER_MODE, VISIBILITY, SHOW, RADIODATA,SHOWFORCEPLAYERLIST, SHOWPLAYERLIST } from '../store/stores'
 	import Background from '@components/background.svelte'
-	import Overlay from '@components/overlay.svelte'
 
 	let isVisible: boolean
 	let isBrowser: boolean
@@ -72,9 +71,6 @@
 	</main>
 	<!-- <BackdropFix /> -->
 {/if}
-
-
-<Overlay />
 
 <style>
 	main {
